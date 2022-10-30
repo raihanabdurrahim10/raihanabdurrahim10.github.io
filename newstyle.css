@@ -28,6 +28,7 @@
   flex-direction: row;
   align-items:center;
   position: fixed;
+  z-index: 1;
   border-radius: 0px 0px 50px 50px;
   transition: all 0.3s ease;
 }
