@@ -1,0 +1,411 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Deca:wght@300&display=swap');
+:root{
+  --bg-primary:#3F3B6C;
+  --nav-color:#A3C7D6;
+}
+*,html,body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Righteous", sans-serif;
+  scroll-behavior: smooth;
+}
+::selection{
+  color: #0044a9;
+}
+::-webkit-scrollbar{
+  color: #000000;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  color: #65a3ff;
+  background-color: #464646;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(125, 125, 125);
+}
+.parallax{
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fContainer{
+  background-image: linear-gradient(-45deg, rgb(255, 255, 255),rgb(148, 148, 148));
+  width: 100%;
+  height: 100vh;
+}
+.navbar{
+  margin: -20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  height: 55px;
+  width: 100%;
+  background-color: #A3C7D6;
+  border-radius: 0px 0px 20px 20px;
+  position: fixed;
+  z-index: 70;
+  letter-spacing: 1px;
+}
+.navbar a{
+  text-decoration: none;
+}
+.logo{
+  display: flex;
+  margin: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.logo:hover{
+  -webkit-filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+.logo img{
+  width: 40px;
+  margin: 0px 15px;
+  font-weight: bold;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-container{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.icon{
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.icon:hover{
+  color: aliceblue;
+  -webkit-filter: drop-shadow(0px 0px 5px rgb(51, 0, 255));
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  font-weight: 20px;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.nav li{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+  height: 30px;
+  width: 70px;
+  transition: all 0.3s ease-in-out;
+  border:  rgba(0, 0, 0, 0) solid 2px;
+}
+.nav li:hover{
+  background-color: #65a3ff;
+  border-radius: 0px 10px 0px 10px;
+  border: #3F3B6C solid 2px;
+}
+.home{
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.home-text{
+background-image: url(assets/logo/logo-ra.png);
+background-size: 200px;
+background-position: 180px;
+background-repeat: no-repeat;
+height: 400px;
+width: 700px;
+margin-left: 70px;
+margin-top: 100px;
+justify-content: center;
+flex-direction: column;
+display: flex;
+color: white;
+}
+.Hai{
+  display: flex;
+  
+}
+.home-text h1{
+  font-family: "Righteous", sans-serif;
+  width: 302px;
+  margin-left: 20px;  
+  letter-spacing: 2px;
+}
+.home-text h2{
+  font-family: "Righteous", sans-serif;
+  width: 300px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.home-text p{
+  font-family: "Lexend Deca";
+  width: 500px;
+  font-size: 16px;
+  margin: 20px 20px;
+  text-align: justify;
+}
+.home-text a{
+  width: 75px;
+  height: 35px;
+}
+.button button{
+  font-family: "Righteous", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 20px 20px;
+  background-color: #ffffff;
+  width: 93px;
+  height: 37px;
+  border-radius: 13px 0px 13px 0px;
+  border: #000000 solid 2px;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px 0px rgb(255, 255, 255);
+  transition: all 0.4s ease-out;
+}
+.button button:hover{
+  border-radius: 0px 13px 0px 13px;
+  transform: scale(1.1);
+  color: white;
+  border: #ffffff solid 2px;
+  box-shadow: inset 400px 0px 0px 0px rgb(0, 0, 0);
+}
+.home-image{
+  padding: 20px 100px;
+  margin: 0px 70px;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  transition: all 0.3s ease-in-out;
+}
+.abstract1{
+  position: absolute;
+  z-index: 0;
+  top: 200%;
+  left: 5%;
+  width: 400px;
+  transition: all 0.3s ease;
+}
+.abstract1:hover{
+  top: 170%;
+  left: 15%;
+}
+.home-img{
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  width: 269px;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+.home-img:hover{
+  top: 55%;
+  left: 40%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(211, 211, 211));
+}
+.about{
+  display: flex;
+  margin: -20px 0px;
+  background-image: linear-gradient(30deg, rgb(255, 255, 255),rgb(111, 111, 111) );
+  height: 100vh;
+  justify-content: center;
+}
+.about-container{
+  margin: 100px 0px;
+  height: 400px;
+  width: 1100px;
+  background-image: linear-gradient(90deg,rgb(104, 104, 104), rgb(255, 255, 255));
+  display: flex;
+  flex-direction: column;
+}
+.header-about{
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.header-about h1{
+  font-size: 30px;
+  font-family: "Righteous", sans-serif;
+}
+.about-content{
+  margin-top: 70px;
+  margin-left: 400px;
+}
+.about-text{
+  margin: 20px;
+  width: 600px;
+}
+.about-text p{
+  font-family: "Lexend Deca";
+  text-align: justify;
+}
+.about-image{
+  position: absolute;
+  left: 7%;
+  top: 118.7%;
+}
+.about-image img{
+  width: 260px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+.about-image img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+.project{
+  margin: 20px 0px;
+  background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(69, 69, 69));
+  height: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-section{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-header{
+  height: 60px;
+}
+.project-header h1{
+  font-size: 35px;
+  color: white;
+}
+.project-container{
+  display: flex;
+  flex-direction: row;
+}
+.project-container1{
+  display: flex;
+  flex-direction: row;
+}
+.project-card{
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 370px;
+  justify-content: center;
+  margin: 20px 20px;
+  border-radius: 15px;
+  border: #000000 solid 3px;
+  background-position: 100px 220px;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+.project-card:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  border: #ffffff solid 3px;
+  color: white;
+  background-color: #3e3e3e;
+  background-image: url(assets/logo/logo-ra.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+.card-image img{
+  margin-top: -30px;
+  border-radius: 15px;
+  width: 300px;
+  border: #747474 solid 4px;
+  transition: all 0.3s ease-in-out;
+}
+.card-image img:hover{
+  rotate: -10deg;
+}
+.card-text{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.card-text h1{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.card-text p{
+  font-family: "Lexend Deca"; 
+  font-size: 15px;
+}
+.skills{
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top right, rgb(255, 255, 255), rgb(121, 121, 121));
+}
+.skills-container{
+  margin: 70px 0px;
+  display: flex;
+  width: 900px;
+  background-color: #747474;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-header h1{
+  font-size: 40px;
+  color: #ffffff;
+}
+.skills-content{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.skills-content-text{
+  color: #ffffff;
+  margin: 20px;
+  font-size: 30px;
+}
+.skills-content-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 560px;
+  font-size: 100px;
+}
+.skills-content-icon i{
+  color: white;
+  margin: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.skills-content-icon i:hover{
+  color: #000000;
+  background: -webkit-linear-gradient(40deg, rgb(0, 0, 0), rgb(121, 121, 121));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+  font-size: 110px;
+}
+.skills-image{
+  position: absolute;
+  top: 397%;
+  left: 9%;
+}
+.skills-image img{
+  width: 130px;
+  filter: brightness(0%);
+  transition: all 0.3s ease-in-out;
+}
+.skills img:hover{
+  filter: brightness(100%);
+transform:scale(1.1);
+}
