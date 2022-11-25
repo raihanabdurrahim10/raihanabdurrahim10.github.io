@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+*,body,html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+hr{
+  width: 200px;
+  margin-left: 20px  ;
+  margin-right: 20px;
+  background-color: #ff00e1;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.nav-container{
+  margin-top: 10px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.navbar{
+  width: 100%;
+  background-image: linear-gradient(45deg, #ff00e1,#ff0000);
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+}
+.navigation ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation li{
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  transition: all ease-in-out 0.2s;
+}
+.navigation li:hover{
+ scale: 1.1;
+ color: black;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audio{
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+audio::-webkit-media-controls-panel{
+  background-color: rgb(0, 221, 255);
+}
+.audio audio{ 
+  height: 30px;
+}
+.home{
+  color: white;
+  background-image: linear-gradient(45deg, rgb(0, 255, 13),rgb(0, 213, 255));
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.home-container>h1{
+  font-size: 40px;
+  animation: love-home ease-in-out 2s infinite;
+  -webkit-filter: drop-shadow(0px 0px 5px black);
+}
+@keyframes love-home {
+  0%{
+    scale: 1.0;
+  }
+  50%{
+    scale: 1.1;
+    rotate: 5deg;
+  }
+  100%{
+    scale: 1.0;
+  }
+}
+.home-content{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.image-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-home p{
+  font-size: 60px;
+}
+.image-home img{
+  border-radius: 20px;
+  width: 200px;
+}
+.name-date-home h1{
+  letter-spacing: 6px;
+}
+.home-button{
+  margin-top: 10px;
+  background-color: #ff00e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  padding: 7px;
+  border-radius: 6px;
+  transition: all ease-in-out 0.2s;
+}
+.home-button:hover{
+  scale: 1.1;
+}
+.home-button a{
+  color: white;
+}
+.couple{
+  background-color: #ff00e1;
+  width: 100%;
+}
+.couple-container{  
+  color: white;
+  background-image: url(/assets/background/couple-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.couple-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.couple-pray{
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.couple-pray>b{
+
+  font-size: 15px;
+}
+.couple-pray>p{
+  font-size: 14px;
+
+}
+.couple-wish{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.couple-wish h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  animation: dengan ease-in-out 1.5s infinite;
+  -webkit-filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+}
+@keyframes dengan{
+  0%{
+    scale: 1.0;
+  }
+  50%{
+    scale: 1.1;
+    rotate: 3deg;
+  }
+  100%{
+    scale: 1.0;
+  }
+}
+.couple-image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.couple-image-container img{
+  margin-bottom: 20px;
+  width: 200px;
+  border-radius: 20px;
+}
+.love-way{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.love-way-header>h1{
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.love-way-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.love-way-content h1{
+  margin: 4px;  
+}
+.love-way-card{
+  color: black;
+  background-image: linear-gradient(10deg, yellow, pink);
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.live{
+  color: white;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.live-header{
+  margin-top: 100px;
+}
+.live-name{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.watch-on{
+  margin-bottom: 30px;
+}
+.social-button{
+  height: 40px;
+  width: 100%;
+  background-color: #ff00e1;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.social-button i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.social-button a{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.live-card{
+  background-image: linear-gradient(30deg, red, orange);
+  margin: 20px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.album-header{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.album{
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one-image img{
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px 2px white;
+}
+.three-image img{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px 2px white;
+}
+.one-image-bottom img{
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px 2px white;
+}
+.live-footer{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:600px){
+  .three-image{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+}
