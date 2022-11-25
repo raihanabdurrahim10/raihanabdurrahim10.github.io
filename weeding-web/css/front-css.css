@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.fContainer{
+  background-image: linear-gradient(45deg, rgb(183, 0, 255), rgb(255, 0, 0));
+  background-size: 200% 200%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: change 5s ease-in-out infinite;
+  
+}
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+.content{
+  box-shadow: 0px 0px 15px 2px rgb(0, 0, 0);
+  background-color: rgb(173, 0, 207);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.header h1{
+  font-size: 20px;
+  color: white;
+}
+.front-image{
+  background-image: url(/assets/front/weeding-front.jpg);
+  background-size: cover;
+  background-position: 150% 70%;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+.front-name{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.front-name p{
+  font-size: 30px;
+}
+.front-text p{
+  margin: 2px;
+  color: white;
+}
+.front-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.front-button{
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 5px 0px 5px 0px;
+  padding: 2px;
+  background-color: rgb(172, 0, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.3s;
+  border: solid 2px white;
+  margin: 10px;
+}
+.front-button i{
+  margin: 5px;
+}
+.front-button:hover{
+  scale: 1.1;
+  color: black;
+background-color: rgb(255, 0, 234)  ;
+}
