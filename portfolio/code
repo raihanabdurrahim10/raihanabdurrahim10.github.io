@@ -1,0 +1,29 @@
+<div class="slider">
+          <div class="slide-content">
+            <div class="project-card">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                <div class="image-card"><img src="assets/card-image/web1.png" alt="" class="card-image"></div>
+                <div class="card-name"><p>Website Portfolio 1</p></div>
+                <div class="text-card"><p>Ini adalah website pertama yang saya buat, website ini menggunakan bahasa pemrograman HTML, Vanilla CSS, dengan sedikit tambahan Javascript untuk nav bar.</p></div>
+              <a href="https://raihanabdurrahim10.github.io/"><div class="button-card">View More</div></a>
+              </div>
+                <div class="card">
+                <div class="image-card"><img src="assets/card-image/web1.png" alt="" class="card-image"></div>
+                <div class="card-name"><p>Website Portfolio 1</p></div>
+                <div class="text-card"><p>Ini adalah website pertama yang saya buat, website ini menggunakan bahasa pemrograman HTML, Vanilla CSS, dengan sedikit tambahan Javascript untuk nav bar.</p></div>
+              <a href="https://raihanabdurrahim10.github.io/"><div class="button-card">View More</div></a>
+              </div>
+                <div class="card swiper-slide">
+                <div class="image-card"><img src="assets/card-image/web1.png" alt="" class="card-image"></div>
+                <div class="card-name"><p>Website Portfolio 1</p></div>
+                <div class="text-card"><p>Ini adalah website pertama yang saya buat, website ini menggunakan bahasa pemrograman HTML, Vanilla CSS, dengan sedikit tambahan Javascript untuk nav bar.</p></div>
+              <a href="https://raihanabdurrahim10.github.io/"><div class="button-card">View More</div></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        </div>
