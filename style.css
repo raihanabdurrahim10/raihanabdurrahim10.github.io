@@ -185,7 +185,7 @@ a {
     align-items: center;
     color: white;
     height: 100vh;
-    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1)90%, rgba(0, 0, 0, 0));
+
 }
 
 
@@ -242,7 +242,9 @@ a {
 .html,
 .js,
 .laravel,
-.php {
+.php,
+.flutter,
+.react {
 
     width: 80px;
     animation: icon-right ease-in-out 1s infinite;
@@ -253,6 +255,20 @@ a {
 .bootstrap {
     width: 70px;
     top: -350px;
+    animation-delay: 0.3s;
+}
+
+.flutter {
+    width: 55px;
+    top: -180px;
+    right: 430px;
+    animation-delay: 0.2s;
+}
+
+.react {
+    width: 70px;
+    top: -470px;
+    right: 220px;
     animation-delay: 0.3s;
 }
 
@@ -497,6 +513,20 @@ a {
     50% {
         transform: translateY(20px);
     }
+}
+
+.mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.masking {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    padding: 40px;
+    width: 100%;
 }
 
 .about {
@@ -1216,6 +1246,10 @@ body {
         height: 150vh;
     }
 
+    .home-image {
+        margin-top: -40px;
+    }
+
     .home-text h1 {
         font-size: 20px;
     }
@@ -1340,7 +1374,9 @@ body {
     .html,
     .js,
     .laravel,
-    .php {
+    .php,
+    .react,
+    .flutter {
         width: 50px;
         position: absolute;
         animation: icon-right ease-in-out 1s infinite;
@@ -1351,6 +1387,18 @@ body {
         width: 40px;
         top: -170px;
         right: 80px;
+    }
+
+    .react {
+        width: 40px;
+        top: -215px;
+        right: 140px;
+    }
+
+    .flutter {
+        width: 35px;
+        top: -90px;
+        right: 250px;
     }
 
     .css {
