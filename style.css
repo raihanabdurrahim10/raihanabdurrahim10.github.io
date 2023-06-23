@@ -175,24 +175,42 @@ a {
     color: white;
 }
 
+.home-bg-mask {
+    background: url(./assets/background/bg-parallax/bg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+}
+
+.home-mask {
+    background: url(./assets/background/bg-parallax/matahari.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+    inset: 0;
+    z-index: -2;
+}
+
 .home {
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
-    background-image: url(./assets/background/home-bg.webp);
+    background-image: url(./assets/background/bg-parallax/pohon.png);
     display: flex;
     align-items: center;
     color: white;
     height: 100vh;
-
 }
-
 
 .home-container {
     display: flex;
     align-items: center;
     height: 100vh;
+    position: absolute;
+    z-index: 1;
 }
 
 .home-text {
