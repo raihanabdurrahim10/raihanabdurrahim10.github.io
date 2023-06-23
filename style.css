@@ -1252,9 +1252,16 @@ body {
         background-color: #000;
     }
 
+    .home-bg-mask {}
+
+    .home-mask {
+        display: none;
+    }
+
     .home {
         flex-direction: column;
-        height: 120vh;
+        height: 140vh;
+        background: url(./assets/background/bg-parallax/bg.png);
     }
 
     .home-container {
