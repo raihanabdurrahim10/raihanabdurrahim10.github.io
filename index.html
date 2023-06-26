@@ -8,12 +8,13 @@
     <title>Raihan Abdurrahim Al Ayyubi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link id="css" rel="stylesheet" href="./css/stylelight.css" />
     <link rel="stylesheet" href="swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="./assets/logo/logo-ra.png" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./assets/favicon.ico">
+    <script src="./swapcss.js"></script>
 </head>
 <body>  
     <div class="nav-container">
@@ -45,6 +46,10 @@
                     </ul>
                 </div>
             </div>
+            <label class="switch">
+                <input type="checkbox" onclick="swapStyleSheet()" id="csstoggle">
+                <span class="slider round" ></span>
+              </label>
             <div class="nav-button">
                 <a href="#about">
                     <p>Download CV</p>
