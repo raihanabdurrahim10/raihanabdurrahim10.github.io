@@ -9,6 +9,7 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
 }
 
 li {

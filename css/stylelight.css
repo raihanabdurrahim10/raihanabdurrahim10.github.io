@@ -9,6 +9,7 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  transition: all ease-in-out 0.2s;
 }
 
 li {
@@ -246,7 +247,7 @@ a {
 }
 
 .home-mask {
-  background: url(./assets/background/bg-parallax/matahari.png);
+  background: url(../assets/background/bg-parallax/bg-light.png);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -259,7 +260,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../assets/background/home-light.jpg);
+  background-image: url(../assets/background/bg-parallax/pohon-light.png);
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
@@ -730,7 +731,7 @@ body {
   border-radius: 20px;
   text-align: center;
   font-size: 18px;
-  background-image: linear-gradient(45deg, rgb(0, 149, 255), rgb(0, 255, 251));
+  background-image: linear-gradient(45deg, rgb(0, 242, 255), rgb(170, 0, 255));
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -742,7 +743,7 @@ body {
 }
 
 .swiper-slide:hover {
-  background-image: linear-gradient(45deg, rgb(255, 0, 238), rgb(255, 0, 0));
+  background-image: linear-gradient(45deg, rgb(0, 98, 255), rgb(255, 0, 170));
   color: rgb(255, 255, 255);
   scale: 1.0;
   transition: all ease-in-out 0.3s;
@@ -1038,7 +1039,7 @@ body {
   font-size: 20px;
   padding: 5px;
   color: white;
-  background-image: linear-gradient(20deg, rgb(255, 0, 230), orange);
+  background-image: linear-gradient(20deg, rgb(0, 98, 255), rgb(255, 0, 170));
   border-radius: 5px;
 }
 
@@ -1072,7 +1073,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(45deg, red, magenta);
+  background: linear-gradient(45deg, rgb(0, 98, 255), rgb(255, 0, 170));
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
@@ -1130,7 +1131,7 @@ body {
 }
 
 .video-container {
-  background-image: linear-gradient(45deg, magenta, orange);
+  background-image: linear-gradient(45deg, rgb(0, 98, 255), rgb(255, 0, 170));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1177,7 +1178,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5px;
-  background: linear-gradient(45deg, red, orange);
+  background: linear-gradient(45deg, rgb(0, 98, 255), rgb(255, 0, 170));
   border-radius: 10px;
   margin: 20px;
   transition: all ease-in-out 0.2s;
@@ -1208,7 +1209,7 @@ body {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(-90deg, magenta, rgb(255, 166, 0));
+  background: linear-gradient(-90deg, rgb(0, 98, 255), rgb(255, 0, 170));
   background-position: 40%;
   color: white;
   padding: 20px;
